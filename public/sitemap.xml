@@ -1,52 +1,122 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-  <url>
-    <loc>https://sapocom.vercel.app/</loc>
-    <lastmod>2023-05-16T04:23:22+00:00</lastmod>
-    <priority>1.00</priority>
-  </url>
-  <url>
-    <loc>https://sapocom.vercel.app/about-us</loc>
-    <lastmod>2023-05-16T04:23:22+00:00</lastmod>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://sapocom.vercel.app/services</loc>
-    <lastmod>2023-05-16T04:23:22+00:00</lastmod>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://sapocom.vercel.app/industries/oil-and-gas</loc>
-    <lastmod>2023-05-16T04:23:22+00:00</lastmod>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://sapocom.vercel.app/industries/metal-and-mining</loc>
-    <lastmod>2023-05-16T04:23:22+00:00</lastmod>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://sapocom.vercel.app/industries/agriculture</loc>
-    <lastmod>2023-05-16T04:23:22+00:00</lastmod>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://sapocom.vercel.app/industries/chemical</loc>
-    <lastmod>2023-05-16T04:23:22+00:00</lastmod>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://sapocom.vercel.app/contact-us</loc>
-    <lastmod>2023-05-16T04:23:22+00:00</lastmod>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://sapocom.vercel.app/industries</loc>
-    <lastmod>2023-05-16T04:23:22+00:00</lastmod>
-    <priority>0.80</priority>
-  </url>
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://www.sapocomglobal.com/</loc>
+  <lastmod>2025-11-17T07:28:45+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://www.sapocomglobal.com/about-us</loc>
+  <lastmod>2025-11-17T07:28:45+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.sapocomglobal.com/about-us/annual-returns</loc>
+  <lastmod>2025-11-17T07:28:45+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.sapocomglobal.com/services</loc>
+  <lastmod>2025-11-17T07:28:45+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.sapocomglobal.com/industries/oil-and-gas</loc>
+  <lastmod>2025-11-17T07:28:45+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.sapocomglobal.com/industries/metal-and-mining</loc>
+  <lastmod>2025-11-17T07:28:45+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.sapocomglobal.com/industries/agriculture</loc>
+  <lastmod>2025-11-17T07:28:45+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.sapocomglobal.com/industries/chemical</loc>
+  <lastmod>2025-11-17T07:28:45+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.sapocomglobal.com/our-culture</loc>
+  <lastmod>2025-11-17T07:28:45+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.sapocomglobal.com/careers</loc>
+  <lastmod>2025-11-17T07:28:45+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.sapocomglobal.com/contact-us</loc>
+  <lastmod>2025-11-17T07:28:45+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.sapocomglobal.com/assets/annual-returns/sapocom-annual-report-fy-2019-20.pdf</loc>
+  <lastmod>2025-11-05T07:01:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.sapocomglobal.com/assets/annual-returns/sapocom-annual-report-fy-2020-21.pdf</loc>
+  <lastmod>2025-11-05T07:01:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.sapocomglobal.com/assets/annual-returns/sapocom-annual-report-fy-2021-22.pdf</loc>
+  <lastmod>2025-11-05T07:01:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.sapocomglobal.com/assets/annual-returns/sapocom-annual-report-fy-2022-23.pdf</loc>
+  <lastmod>2025-11-05T07:01:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.sapocomglobal.com/assets/annual-returns/sapocom-annual-report-fy-2023-24.pdf</loc>
+  <lastmod>2025-11-05T07:01:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.sapocomglobal.com/services/sap-implementation</loc>
+  <lastmod>2025-11-17T07:28:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.sapocomglobal.com/services/support</loc>
+  <lastmod>2025-11-17T07:28:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.sapocomglobal.com/services/sap-rollout</loc>
+  <lastmod>2025-11-17T07:28:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.sapocomglobal.com/services/data-migration</loc>
+  <lastmod>2025-11-17T07:28:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.sapocomglobal.com/services/data-upgrade</loc>
+  <lastmod>2025-11-17T07:28:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.sapocomglobal.com/services/advisory</loc>
+  <lastmod>2025-11-17T07:28:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
 
 
 </urlset>

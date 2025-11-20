@@ -6,6 +6,7 @@ import "../styles/globals.css";
 import "../styles/fonts.css";
 import { useRouter } from "next/router";
 import AdminLayout from "@/layouts/admin/AdminLayout";
+import Head from "next/head";
 
 export default function App({ Component, pageProps }) {
   const router = useRouter();
@@ -13,6 +14,12 @@ export default function App({ Component, pageProps }) {
     router.pathname.startsWith("/admin") && router.pathname != "/admin";
   return (
     <>
+     <Head>
+        <meta
+          name="google-site-verification"
+          content="hm_HJk6oWbg7rEEEI90QXcNeyefvopyuSNsvq3hCUJQ"
+        />
+      </Head>
       <Script
         strategy="lazyOnload"
         src={`https://www.googletagmanager.com/gtag/js?id=G-4CKQSZF4DS`}
