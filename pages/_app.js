@@ -20,7 +20,7 @@ export default function App({ Component, pageProps }) {
           content="hm_HJk6oWbg7rEEEI90QXcNeyefvopyuSNsvq3hCUJQ"
         />
       </Head>
-      <Script
+      {/* <Script
         strategy="lazyOnload"
         src={`https://www.googletagmanager.com/gtag/js?id=G-4CKQSZF4DS`}
       />
@@ -34,7 +34,7 @@ export default function App({ Component, pageProps }) {
                     page_path: window.location.pathname,
                     });
                 `}
-      </Script>
+      </Script> */}
       <Provider store={store}>
         {adminLayout ? (
           <AdminLayout>
