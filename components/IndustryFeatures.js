@@ -20,7 +20,7 @@ function IndustryFeatures({ title = 'challenges', heading = 'All these to be fut
                     featuresData.map(({ title, description }, ind) => {
                         return (
                             <div key={ind} data-aos="fade-up" data-aos-delay={ind * 100} className='p-4  hover:shadow-detailcard rounded-md select-none transition-all'>
-                                <h1 className='text-2xl text-secondary mb-4 font-semibold '>{title}</h1>
+                                <h3 className='text-2xl text-secondary mb-4 font-semibold '>{title}</h3>
                                 <p className='text-black/60'>{description}</p>
                             </div>
                         )

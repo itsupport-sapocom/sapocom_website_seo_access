@@ -23,8 +23,9 @@ import { industryClients, industryAgricultureFutureData, industryagricultureSucc
 export default function Agriculture() {
   return (
     <>
-      <SetHeaders title='Agriculture Industry | Sapocom' />
-      <HeaderBanner heading='SAP Agriculture - Modernize Your Agriculture Business With Us' para='Stay ahead in the agricultural sector with our futuristic solutions to optimize management and gain insights with useful analytics.' bgImg={bgBanner} />
+      <SetHeaders title='Deal Capture Made Easy - SAP Agriculture Solutions' description='Simplify deal capture in agriculture with SAP. Streamline operations, boost efficiency & grow faster. Get started today!' keywords='Deal Capture' canonicalRoute='/industries/agriculture' image='https://www.sapocomglobal.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FindustryAbout.da7f652b.png&w=750&q=75' />
+      
+      <HeaderBanner heading='SAP Agriculture - Modernize Your Business With Smart Deal Capture Solutions' para='Stay ahead in the agricultural sector with our futuristic solutions to optimize management and gain insights with useful analytics.' bgImg={bgBanner} />
 
       <AboutIndustry
         title='Overview'

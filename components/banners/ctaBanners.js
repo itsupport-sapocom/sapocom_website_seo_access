@@ -21,7 +21,7 @@ export function CtaBanner({ cta = '/contact-us', heading = 'Want to Learn More a
                 <Image src={bgImg} width={1300} alt="cta_banner_image" className='w-full h-full absolute top-0 left-0 object-cover' />
                 {/* Background Image */}
                 <div className='max-w-[800px] mx-auto grid grid-cols-[2fr_1fr] max-review:grid-cols-1 gap-4 text-white z-50'>
-                    <h1 className="max-w-[550px] text-3xl z-40 font-semibold max-review:text-center">{heading}</h1>
+                    <h2 className="max-w-[550px] text-3xl z-40 font-semibold max-review:text-center">{heading}</h2>
                     <div className='flex justify-center items-center'>
                         {/* <Link passHref href={cta} > */}
                         <button onClick={handleModalOpen} className='px-5 py-2 rounded-md text-white bg-gradient-to-r from-primary to-secondary'>Contact Us</button>

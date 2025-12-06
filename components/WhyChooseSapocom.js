@@ -23,7 +23,7 @@ function WhyChooseSapocom() {
                             <div className={`rounded-md aspect-[1/1] w-20 p-3 flex justify-center items-center absolute left-4 -top-[25%] bg-[#FF86CF]`}>
                                 <Image src={whyChooseSapocomBulb} alt='whyChooseSapocomBulb' />
                             </div>
-                            <h1 className='font-medium text-secondary text-xl pt-12'>Innovative and Future-Focused Solutions</h1>
+                            <p className='font-medium text-secondary text-xl pt-12'>Innovative and Future-Focused Solutions</p>
 
                         </div>
                     </div>
@@ -33,7 +33,7 @@ function WhyChooseSapocom() {
                             <div className={`rounded-md aspect-[1/1] w-20 p-3 flex justify-center items-center absolute left-4 -top-[25%] bg-[#DDE8FE]`}>
                                 <Image src={whyChooseSapocomTime} alt='whyChooseSapocomTime' />
                             </div>
-                            <h1 className='font-medium text-secondary text-xl pt-12'>Years of Expertise with Experience</h1>
+                            <p className='font-medium text-secondary text-xl pt-12'>Years of Expertise with Experience</p>
                         </div>
                     </div>
                     <div className="aspect-[4/3] w-[250px] flex items-end select-none">
@@ -42,7 +42,7 @@ function WhyChooseSapocom() {
                             <div className={`rounded-md aspect-[1/1] w-20 p-3 flex justify-center items-center absolute left-4 -top-[25%] bg-[#C7FFB4]`}>
                                 <Image src={whyChooseSapocomStar} alt='whyChooseSapocomStar' />
                             </div>
-                            <h1 className='font-medium text-secondary text-xl pt-12'>Customer Centric Approach</h1>
+                            <p className='font-medium text-secondary text-xl pt-12'>Customer Centric Approach</p>
                         </div>
                     </div>
                 </div>

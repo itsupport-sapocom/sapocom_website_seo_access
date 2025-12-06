@@ -20,9 +20,9 @@ export const ServicesCtaCard = (props) => {
       {/* Background Image */}
       <div className="max-w-1200 mx-auto grid grid-cols-[2fr_1fr] max-review:grid-cols-1 gap-4 text-white z-50">
         <div>
-          <h1 className="text-3xl z-40 font-semibold max-review:text-center text-transparent bg-clip-text bg-gradient-to-r from-primary from-30%  to-secondary to-90% mb-4">
+          <h2 className="text-3xl z-40 font-semibold max-review:text-center text-transparent bg-clip-text bg-gradient-to-r from-primary from-30%  to-secondary to-90% mb-4">
             {title}
-          </h1>
+          </h2>
           <p className="text-black">{description}</p>
         </div>
 

@@ -22,8 +22,9 @@ import { industryClients, industryOilGasChallengeData, industryOilGasSuccessData
 function OilGasPage() {
   return (
     <>
-      <SetHeaders title='Oil & Gas Industry | Sapocom' />
-      <HeaderBanner heading='Oil & Gas Industry' para='Empower your OG&E business to drive the renewable energy future with our cutting-edge digital solutions, unlocking your full potential for sustainable growth.' bgImg={bgBanner} />
+      <SetHeaders title='SAP IS Oil & Gas Solutions for Smarter Operations' description='Power your business with SAP IS Oil & Gas and SAP IS-Oil Downstream solutions. Boost efficiency & cut costs. Contact us today!' keywords='SAP IS Oil & Gas, SAP IS Oil, SAP Downstream, SAP IS-Oil Downstream, SAP Secondary Distribution Management, SAP Retail Fuel Network Operation, SAP TSW (Trader Scheduler Workbench)' canonicalRoute='/industries/oil-and-gas' image='https://www.sapocomglobal.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FindustryAbout.aaf59981.png&w=750&q=75' />
+
+      <HeaderBanner heading='SAP IS Oil & Gas - Transform Your Operations With Us' para='Empower your OG&E business to drive the renewable energy future with our cutting-edge digital solutions, unlocking your full potential for sustainable growth.' bgImg={bgBanner} />
 
       <AboutIndustry
         title='Overview'
@@ -35,7 +36,7 @@ function OilGasPage() {
 
       <IndustryFeatures
         title='Challenges'
-        heading='Challenges in Oil & Gas Industry'
+        heading='Challenges in SAP IS Oil & Gas Industry'
         description='Like every industry, Oil & Gas industry has its share of issues to tackl'
         featuresData={industryOilGasChallengeData}
       />

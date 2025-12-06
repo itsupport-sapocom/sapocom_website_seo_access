@@ -37,10 +37,16 @@ const whyChooseUs = [
 function SupportPage() {
   return (
     <>
-      <SetHeaders title={`Support | Sapocom`} />
+      <SetHeaders
+        title="SAP Support Partners for Seamless Operations | SAPOCOM"
+        description="Need reliable SAP Support Partners? SAPOCOM delivers fast, expert assistance to keep your systems running smoothly. Contact us today for immediate support!"
+        keywords="SAP Support Partners"
+        canonicalRoute="/services/support"
+        image="https://www.sapocomglobal.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fabout-sapocom-section.381abdb9.png&w=640&q=75"
+      />
       {/* Header Banner */}
       <HeaderBanner
-        heading="Support"
+        heading="Leading SAP Support Partners for Your Business"
         para="Running SAP shouldn’t feel complicated. With our dedicated support services, we ensure your systems are always reliable, secure, and aligned with your business needs. From solving everyday issues to keeping your system future-ready, we’ve got you covered."
         bgImg={service}
         btnText={null}

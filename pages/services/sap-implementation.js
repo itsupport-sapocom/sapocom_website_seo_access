@@ -46,7 +46,13 @@ const whyChooseUs = [
 function SapImplementationPage() {
   return (
     <>
-      <SetHeaders title={`SAP Implementation | Sapocom`} />
+      <SetHeaders
+        title="SAP Implementation Made Easy - Partner With Experts"
+        description="Achieve success with expert SAP Implementation. Trusted SAP Implementation Partners delivering seamless solutions. Request a free consultation today!"
+        keywords="SAP Implementation, SAP Implementation Partners"
+        canonicalRoute="/services/sap-implementation"
+        image="https://sapocomglobal.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fabout-sapocom-section.381abdb9.png&w=640&q=75"
+      />
       {/* Header Banner */}
       <HeaderBanner
         heading="SAP Implementation"

@@ -24,7 +24,7 @@ position = 'Executive Director at PWC', image }) {
               <div className='p-4 bg-black grid grid-cols-[40px_1fr] gap-4'>
                 <Image src={image} width={50} alt='client-review-image' className='rounded-full w-10 h-10 bg-white' />
                 <div>
-                  <h1>{name}</h1>
+                  <p>{name}</p>
                   <p className='text-sm opacity-60'>{position}</p>
                 </div>
               </div>
