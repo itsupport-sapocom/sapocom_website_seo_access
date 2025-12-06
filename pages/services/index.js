@@ -27,9 +27,10 @@ import Link from 'next/link';
 function Services() {
   return (
     <>
-      <SetHeaders title='Services | Sapocom' />
-      <HeaderBanner heading='Empowering Global SAP Projects - SAPOCOM Consulting & Talent Solutions' para='Integrated platform for Oil & Gas, Metal & Mining to facilitate digital transformation using SAP business processes for future
-sustainability & growth. ' bgImg={serviceBanner} />
+      <SetHeaders title='SAP Industry-Specific Solutions | Expert SAP Consulting' description="Unlock tailored SAP Industry-Specific Solutions with SAPOCOM's global consulting & talent expertise. Transform your business today—request your free quote now!" keywords='SAP Industry-Specific Solutions' canonicalRoute='/services' image='https://sapocomglobal.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Foverview.c3075b6b.png&w=750&q=75' />
+
+      <HeaderBanner heading='SAP Industry-Specific Solutions for Global Projects | SAPOCOM Tech' para='Integrated platform for Oil & Gas, Metal & Mining to facilitate digital transformation using SAP business processes for future
+sustainability & growth.' bgImg={serviceBanner} />
 
 
       {/* Overview */}
@@ -85,7 +86,7 @@ sustainability & growth. ' bgImg={serviceBanner} />
                       <Image src={image} width={350} alt='service_images' className='rounded-t-lg w-full h-auto' priority />
                     </div>
                     <div className="p-4">
-                      <h1 className='mb-4 text-2xl font-semibold'>{title}</h1>
+                      <h3 className='mb-4 text-2xl font-semibold'>{title}</h3>
                       <ul className="opacity-60 list-outside pl-3">
                         {
                           points.map((point, ind) => {
@@ -113,7 +114,7 @@ sustainability & growth. ' bgImg={serviceBanner} />
                           <Image src={image} width={350} alt='service_images' className='rounded-t-lg w-full h-auto' priority />
                         </div>
                         <div className="p-4 min-h-[512px]">
-                          <h1 className='mb-4 text-2xl font-semibold'>{title}</h1>
+                          <h3 className='mb-4 text-2xl font-semibold'>{title}</h3>
                           <ul className="opacity-60 list-outside pl-3">
                             {
                               points.map((point, ind) => {
@@ -254,7 +255,7 @@ sustainability & growth. ' bgImg={serviceBanner} />
                         <Image src={image} width={350} alt='service_images' className='aspect-video object-cover rounded-t-lg w-full h-auto' priority />
                       </div>
                       <div className="p-4">
-                        <h1 className='mb-3 text-xl font-semibold'>{title}</h1>
+                        <h3 className='mb-3 text-xl font-semibold'>{title}</h3>
                         <p className="line-clamp-[11]">{description}</p>
                       </div>
                     </div>
@@ -275,7 +276,7 @@ sustainability & growth. ' bgImg={serviceBanner} />
                           <Image src={image} width={350} alt='service_images' className='aspect-video object-cover rounded-t-lg w-full h-auto' priority />
                         </div>
                         <div className="p-4 min-h-[196px]">
-                          <h1 className='mb-3 text-xl font-semibold'>{title}</h1>
+                          <h3 className='mb-3 text-xl font-semibold'>{title}</h3>
                           <p className="line-clamp-[11]">{description}</p>
                         </div>
                       </div>

@@ -1,37 +1,43 @@
-import React from "react";
-import Image from "next/image";
-import SetHeaders from "@/layouts/SetHeaders";
-import VideoBackgroundMessage from "@/components/VideoBackgroundMessage";
+import React from 'react';
+import Image from 'next/image';
+import SetHeaders from '@/layouts/SetHeaders';
+import VideoBackgroundMessage from '@/components/VideoBackgroundMessage';
 
 // SVG
-import rocketSvg from "@/assets/images/icons/rocket.svg";
-import airplaneSvg from "@/assets/images/icons/airplane.svg";
-import horseSvg from "@/assets/images/icons/horse.svg";
-import mountainSvg from "@/assets/images/icons/mountain.svg";
-import targetSvg from "@/assets/images/icons/target.svg";
-import growthSvg from "@/assets/images/icons/growth.svg";
-import economicGrowthSvg from "@/assets/images/icons/economic-growth.svg";
+import rocketSvg from '@/assets/images/icons/rocket.svg';
+import airplaneSvg from '@/assets/images/icons/airplane.svg';
+import horseSvg from '@/assets/images/icons/horse.svg';
+import mountainSvg from '@/assets/images/icons/mountain.svg';
+import targetSvg from '@/assets/images/icons/target.svg';
+import growthSvg from '@/assets/images/icons/growth.svg';
+import economicGrowthSvg from '@/assets/images/icons/economic-growth.svg';
 
 // Images
-import aboutBanner from "@/assets/images/bgImages/aboutUsBanner.png";
-import headerImage from "@/assets/images/about/headerImage.png";
-import founderImage from "@/assets/images/about/founder.png";
-import directorImage from "@/assets/images/about/team1.png";
-import companyImage from "@/assets/images/about/company.png";
-import missionImage from "@/assets/images/about/mission.png";
-import { BannerWithImage } from "@/components/banners/banners";
+import aboutBanner from '@/assets/images/bgImages/aboutUsBanner.png';
+import headerImage from '@/assets/images/about/headerImage.png';
+import founderImage from '@/assets/images/about/founder.png';
+import directorImage from '@/assets/images/about/team1.png';
+import companyImage from '@/assets/images/about/company.png';
+import missionImage from '@/assets/images/about/mission.png';
+import { BannerWithImage } from '@/components/banners/banners';
 
 // Configs
-import { teamsList } from "@/configs/config";
+import { teamsList } from '@/configs/config';
 
 function AboutUs() {
   return (
     <>
-      <SetHeaders title="About Us | Sapocom" />
+      <SetHeaders
+        title="SAP Treasury & Risk Management Solutions | SAPOCOM Tech"
+        description="Expert SAP Treasury & Risk Management solutions from your trusted SAP partner. Minimize risk, maximize returns. Get a free consultation from SAPOCOM today!"
+        canonicalRoute="/about-us"
+        keywords="SAP Treasury & Risk Management"
+        image="https://sapocomglobal.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcompany.79129ab0.png&w=640&q=75"
+      />
       {/* Header Banner */}
       <BannerWithImage
         title="about"
-        heading="Welcome to SAPOCOM Technologies - Your Trusted SAP Partner"
+        heading="Your Trusted SAP Partner for SAP Treasury & Risk Management | SAPOCOM Tech"
         para="We are committed to helping businesses thrive with our innovative solutions and expert guidance. Our team of SAP professionals is dedicated to delivering top-notch services that drive growth and success for our clients."
         img={headerImage}
         bgImg={aboutBanner}
@@ -74,7 +80,7 @@ function AboutUs() {
               <div data-aos="flip-left" className="flex items-center">
                 <Image
                   alt="check_with_circle_svg"
-                  src={require("../../assets/images/icons/check-with-circle-white.svg")}
+                  src={require('../../assets/images/icons/check-with-circle-white.svg')}
                   className="w-5 h-5 mr-3"
                 />
                 <p>Cutting-edge solutions for businesses</p>
@@ -82,7 +88,7 @@ function AboutUs() {
               <div data-aos="flip-left" className="flex items-center">
                 <Image
                   alt="check_with_circle_svg"
-                  src={require("../../assets/images/icons/check-with-circle-white.svg")}
+                  src={require('../../assets/images/icons/check-with-circle-white.svg')}
                   className="w-5 h-5 mr-3"
                 />
                 <p>Stocks and deliveries</p>
@@ -90,7 +96,7 @@ function AboutUs() {
               <div data-aos="flip-left" className="flex items-center">
                 <Image
                   alt="check_with_circle_svg"
-                  src={require("../../assets/images/icons/check-with-circle-white.svg")}
+                  src={require('../../assets/images/icons/check-with-circle-white.svg')}
                   className="w-5 h-5 mr-3"
                 />
                 <p>SAP-based growth services</p>
@@ -98,7 +104,7 @@ function AboutUs() {
               <div data-aos="flip-left" className="flex items-center">
                 <Image
                   alt="check_with_circle_svg"
-                  src={require("../../assets/images/icons/check-with-circle-white.svg")}
+                  src={require('../../assets/images/icons/check-with-circle-white.svg')}
                   className="w-5 h-5 mr-3"
                 />
                 <p>Commitment to top-notch services</p>
@@ -127,14 +133,14 @@ function AboutUs() {
             >
               Mission
             </p>
-            <h2
+            <h3
               data-aos="fade-up"
               data-aos-delay="200"
               className="text-3xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-primary from-30%  to-secondary to-90% mb-2"
             >
               Our mission is to empower businesses with cutting-edge SAP
               solutions and services that drive growth and success.
-            </h2>
+            </h3>
           </div>
           <div className="max-md:hidden" data-aos="flip-right">
             <Image
@@ -162,9 +168,9 @@ function AboutUs() {
       >
         <div className="max-w-900 mx-auto rounded-lg p-8 bg-gradient-to-r from-primary to-secondary">
           <p className="text-white uppercase mb-2 font-medium">Company</p>
-          <h2 className="text-3xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-white to-white/50 mb-8 max-w-[550px]">
+          <h3 className="text-3xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-white to-white/50 mb-8 max-w-[550px]">
             Founder&apos;s Message
-          </h2>
+          </h3>
           <div className="grid md:grid-rows-[1fr_1fr] gap-8 text-white">
             {/* Image side */}
             <div className="flex gap-8 justify-center flex-wrap">
@@ -262,13 +268,13 @@ function AboutUs() {
           >
             Timeline
           </p>
-          <h2
+          <h3
             data-aos="flip-right"
             data-aos-delay="100"
             className="max-w-[800px] md:text-4xl text-3xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-primary from-30% to-secondary to-90% mb-4"
           >
             From nothing to a big name in industry
-          </h2>
+          </h3>
           <p
             data-aos="flip-left"
             data-aos-delay="100"
@@ -449,13 +455,13 @@ function AboutUs() {
             >
               Worldwide
             </p>
-            <h2
+            <h3
               data-aos="fade-up"
               data-aos-delay="200"
               className="text-3xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-primary from-30%  to-secondary to-90% mb-4 max-w-[550px]"
             >
               Trusted Global SAP Partners
-            </h2>
+            </h3>
             <p
               data-aos="fade-up"
               data-aos-delay="300"
@@ -473,19 +479,19 @@ function AboutUs() {
           >
             <div className="p-6 px-8 rounded-lg bg-white grid grid-cols-2 gap-8 text-black border-primary/40 border">
               <div>
-                <h3 className="text-3xl md:text-4xl font-semibold">20+</h3>
+                <p className="text-3xl md:text-4xl font-semibold">20+</p>
                 <p className="text-sm">Clients across globe</p>
               </div>
               <div>
-                <h3 className="text-3xl md:text-4xl font-semibold">50</h3>
+                <p className="text-3xl md:text-4xl font-semibold">50</p>
                 <p className="text-sm">Number of employees</p>
               </div>
               <div>
-                <h3 className="text-3xl md:text-4xl font-semibold">10+</h3>
+                <p className="text-3xl md:text-4xl font-semibold">10+</p>
                 <p className="text-sm">Global Projects</p>
               </div>
               <div>
-                <h3 className="text-3xl md:text-4xl font-semibold">18+</h3>
+                <p className="text-3xl md:text-4xl font-semibold">18+</p>
                 <p className="text-sm">Total experience</p>
               </div>
             </div>
@@ -494,10 +500,11 @@ function AboutUs() {
       </section>
       {/* Video BG Section */}
       <VideoBackgroundMessage VideoBackgroundMessage>
-        <h1 className="text-white font-semibold text-2xl text-center max-w-[800px]">
+        <h2 className="text-white font-semibold text-2xl text-center max-w-[800px]">
           We are helping business all overthe world with growth and efficient
-          solutions and then they start their partnering with ther big clients{" "}
-        </h1>
+          solutions and then they start their partnering with ther big
+          clients{' '}
+        </h2>
       </VideoBackgroundMessage>
     </>
   );

@@ -23,8 +23,9 @@ import IndustryPartsDetail from '@/components/IndustryPartsDetail';
 export default function MetalMining() {
   return (
     <>
-      <SetHeaders title='Metal & Mining Industry | Sapocom' />
-      <HeaderBanner heading='Metal & Mining Industry' para='Ignite the Future of Metal and Mining with SAP CTRM: Unleash Enhanced Business Processes and Propel Productivity towards Sustainable Growth! ' bgImg={bgBanner} />
+      <SetHeaders title='SAP Commodity Management - Metal & Mining Solutions' description='Optimize with SAP Commodity Management, SAP CTRM & SAP Commodity Trading & Risk Management for metal & mining. Contact us!' keywords='SAP Commodity Management, SAP Commodity Trading & Risk Management, SAP CTRM, Commodity Pricing Engine, Commodity Pricing Formula' canonicalRoute='/industries/metal-and-mining' image='https://www.sapocomglobal.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FindustryAbout.0ac98855.png&w=750&q=75'  />
+      
+      <HeaderBanner heading='SAP Commodity Management for Metal & Mining Industry' para='Ignite the Future of Metal and Mining with SAP CTRM: Unleash Enhanced Business Processes and Propel Productivity towards Sustainable Growth! ' bgImg={bgBanner} />
 
       <AboutIndustry
         title='OVERVIEW'

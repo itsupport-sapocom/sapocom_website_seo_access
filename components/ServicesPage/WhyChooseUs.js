@@ -25,7 +25,7 @@ export function ServicesWhyChooseUs(props) {
               data-aos-delay={100}
               className={`bg-white rounded-md border-2 h-full w-[250px] p-4 hover:shadow-card relative`}
             >
-              <h1 className="font-medium text-secondary text-xl">{why}</h1>
+              <p className="font-medium text-secondary text-xl">{why}</p>
             </div>
           </div>
         ))}

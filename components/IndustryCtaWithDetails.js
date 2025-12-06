@@ -21,7 +21,7 @@ export default function IndustryCtaWithDetails({ title = 'clients', heading = 'A
                             return (
                                     <div key={ind} className={`${even && 'lg:translate-y-6'} select-none p-4 rounded-md aspect-square border border-secondary/20 hover:border-secondary/50 transition-all hover:shadow-detailcard`}>
                                         <Image src={image} alt={title} className='mb-3 w-10 h-10' />
-                                        <h1 className='text-xl font-semibold mb-3'>{title}</h1>
+                                        <h3 className='text-xl font-semibold mb-3'>{title}</h3>
                                         <p className="opacity-60 line-clamp-3">{description}</p>
                                     </div>
                             )
